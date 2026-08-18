@@ -83,11 +83,18 @@
     padding: 20px 48px; color: var(--muted); background: #f7f9fc;
     border-top: 1px solid var(--border); text-align: center; font-size: 14px;
   }
-  @media (max-width: 640px) {
+@media (max-width: 640px) {
     .container { width: 100%; margin: 0; border-radius: 0; }
     header, main, footer { padding-left: 22px; padding-right: 22px; }
     .section-title { align-items: flex-start; flex-wrap: wrap; }
     .qr-grid { grid-template-columns: 1fr; }
+    .header-top {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    header h1 {
+      font-size: 22px;
+    }
   }
   @media print {
     body { background: #fff; }
@@ -130,7 +137,7 @@
           <p class="subheading">나. 제출 안내</p>
           <ul>
             <li><strong>제출 기한:</strong> <span class="deadline">2026. 8. 31.(월)</span></li>
-            <li><strong>제출 방법:</strong> 원본 또는 스캔본을 이메일 <a href="/cdn-cgi/l/email-protection#583c342b376869696d182137362b3d3176393b76332a"><span class="__cf_email__" data-cfemail="fd99918e92cdccccc8bd8492938e9894d39c9ed3968f">[dlso0115@yonsei.ac.kr]</span></a> 제출 또는 방문 제출</li>
+            <li><strong>제출 방법:</strong> 원본 또는 스캔본을 이메일 <a href="mailto:dlso0115@yonsei.ac.kr">[dlso0115@yonsei.ac.kr]</a> 제출 또는 방문 제출</li>
           </ul>
         </div>
       </section>
@@ -141,31 +148,30 @@
           <span class="phone">문의 ☎ 1701</span>
         </h2>
         <div class="section-content">
-          <p class="subheading">가. 수강 안내</strong></p>
+          <p class="subheading"><strong>가. 수강 안내</strong></p>
             <ul><li>해당 교육은 전공의 필수 과정 및 수련환경평가 수검 항목이며, <strong>의사면허번호가 필요</strong>합니다</li>
             <li><strong>교육 기간:</strong> 의사 면허증 교부 ~ <span class="deadline">2026. 8. 31.(월)</span></li>
             <li><strong>대한병원협회 교육센터 (<a href="https://kha.hunet.co.kr/Home" target="_blank" rel="noopener noreferrer">https://kha.hunet.co.kr/Home</a>)</strong> 접속 → 의사면허번호 기재 후 회원가입 → 전공의공통역량 온라인 교육 → <strong>기초과정(인턴)</strong> 과정 수강 → 수료증 출력 후 제출</li>
             </ul>  
-         <p class="subheading">나. 제출 안내</strong></p>
+         <p class="subheading"><strong>나. 제출 안내</strong></p>
           <ul>
 
 
             <li><strong>제출 기한:</strong> <span class="deadline">2026. 8. 31.(월)</span></li>
-            <li><strong>제출 방법:</strong> PDF 형식으로 이메일 <a href="/cdn-cgi/l/email-protection#47232b342877767672073e282934222e692624692c35"><span class="__cf_email__" data-cfemail="9df9f1eef2adacaca8dde4f2f3eef8f4b3fcfeb3f6ef">[dlso0115@yonsei.ac.kr]</span></a> 제출</li>
+            <li><strong>제출 방법:</strong> PDF 형식으로 이메일 <a href="mailto:dlso0115@yonsei.ac.kr">[dlso0115@yonsei.ac.kr]</a> 제출</li>
           </ul>
         </div>
       </section>
-
-      <section class="section">
+     <section class="section">
         <h2 class="section-title">
           <span><span class="section-number">3</span>채용검진</span>
           <span class="phone">문의 ☎ 1670</span>
         </h2>
         <div class="section-content">
-         <p class="subheading">가. 검진 안내</strong></p>
+         <p class="subheading"><strong>가. 검진 안내</strong></p>
           <ul>
             <li><strong>검진 기한:</strong> <span class="deadline">2026. 8. 31.(월)</span></li>
-            <li><strong>검진시간 및 장소:</strong> 평일 09:00~13:00 접수 / 별관 2층 외래 직업환경의학과</li>
+            <li><strong>검진 시간 및 장소:</strong> 평일 09:00~13:00 접수 / 별관 2층 외래 직업환경의학과</li>
           </ul>
           <p class="subheading">나. 안내사항</p>
           <ul>
@@ -173,16 +179,54 @@
             <li>직업환경의학과 방문 후 번호표를 발급받아 채용검진 진행</li>
           </ul>
         </div>
+      </section> 
+      <section class="section">
+        <h2 class="section-title">
+          <span><span class="section-number">4</span>인턴 오리엔테이션</span>
+          <span class="phone">문의 ☎ 1736</span>
+        </h2>
+        <div class="section-content">
+         <p class="subheading"><strong>가. 오리엔테이션 안내</strong></p>
+          <ul>
+            <li><strong>일정:</strong>  <span class="deadline">2026. 8. 25.(화) ~ 2026. 8. 27.(목)</span></li>
+            <li><strong>장소:</strong> 의학관 5층 WISE교육혁신센터 등</li>
+          </ul>
+          <p class="subheading">나. 안내사항</p>
+          <ul>
+            <li style="color:#d40000; font-weight:800;">오리엔테이션 전체 프로그램 참석 필수</li>
+            <li>KALS 책자 수령 및 숙지 필수(OT 기간 중 해당 책자 내용으로 KALS 시험이 예정되어 있음)</li>
+            <li>상세 일정 추후 안내 예정</li>
+ 
+            
+          </ul>
+        </div>
       </section>
 
       <section class="section">
         <h2 class="section-title">
-          <span><span class="section-number">4</span>기숙사 안내</span>
+          <span><span class="section-number">5</span>KALS 책자 수령 안내</span>
           <span class="phone">문의 ☎ 1701</span>
         </h2>
         <div class="section-content">
           <ul>
-            <li><strong>신청 방법:</strong> [붙임 1-1] 신청서 작성 후 이메일 <a href="/cdn-cgi/l/email-protection#ed89819e82dddcdcd8ad9482839e8884c38c8ec3869f"><span class="__cf_email__" data-cfemail="53373f203c63626266132a3c3d20363a7d32307d3821">[dlso0115@yonsei.ac.kr]</span></a> 제출</li>
+            <li><strong>수령 장소:</strong> 원주시 일산로 13, 종합관 3층 교육수련부</li>
+            <li><strong>수령 시간:</strong> 08:30~17:30(점심시간: 12:30~13:30)</li>
+            <li><strong>수령 기한:</strong> <span class="deadline">2026. 8. 24.(월)</span></li>
+          </ul>
+        </div>
+      </section>
+
+
+
+ 
+      <section class="section">
+        <h2 class="section-title">
+          <span><span class="section-number">6</span>기숙사 안내</span>
+          <span class="phone">문의 ☎ 1701</span>
+        </h2>
+        <div class="section-content">
+          <ul>
+            <li><strong>신청 방법:</strong> [붙임 1-1] 신청서 작성 후 이메일 <a href="mailto:dlso0115@yonsei.ac.kr">[dlso0115@yonsei.ac.kr]</a> 제출</li>
             <li><strong>제출 기한:</strong> <span class="deadline">2026. 8. 19.(수)</span></li>
             <li>세부 지침은 [붙임 1-2] 전공의 기숙사 관리 지침을 참고해 주시기 바랍니다.</li>
           </ul>
@@ -191,22 +235,26 @@
 
       <section class="section">
         <h2 class="section-title">
-          <span><span class="section-number">5</span>콜폰 안내</span>
+          <span><span class="section-number">7</span>콜폰 안내</span>
           <span class="phone">문의 ☎ 1736</span>
         </h2>
         <div class="section-content">
           <ul>
             <li><strong>콜폰 등록을 위한 기종 설문조사:</strong> <a href="https://forms.gle/TFHiCMdwppDDmTe29" target="_blank" rel="noopener noreferrer">https://forms.gle/TFHiCMdwppDDmTe29</a></li>
-            <li><strong>설문 기한:</strong> <span class="deadline">2026. 8. 19.(화)</span></li>
+            <li><strong>설문 기한:</strong> <span class="deadline">2026. 8. 19.(수)</span></li>
             <li>조사 내용은 의료정보팀 통신파트에서 기종별 서버 설정을 적용하기 위해 사용됩니다.</li>
             <li>자세한 사항은 <strong>2026. 8. 25.(화)</strong> 신규 인턴 교육 시 의료정보팀 통신파트에서 교육 예정입니다.</li>
           </ul>
         </div>
       </section>
 
+
+
+
+
       <section class="section">
         <h2 class="section-title">
-          <span><span class="section-number">9</span>기타 안내 사항</span>
+          <span><span class="section-number">8</span>기타 안내 사항</span>
           <span class="phone">문의 ☎ 1736</span>
         </h2>
         <div class="section-content">
@@ -214,16 +262,16 @@
           <ul>
             <li style="color:#d40000; font-weight:800;">입사 전까지 타 기관에 등록된 면허를 반드시 정리해 주시기 바랍니다. 미정리 시 입사 취소 등 수련에 불이익이 발생할 수 있으니 유의하시기 바랍니다.</li>
           </ul>
-          <p class="subheading">나. 수련계약서</p>
+          <p class="subheading">나. 수련계약서 등 추가 안내 사항</p>
           <ul>
-            <li>추후 안내 예정</li>
+            <li>추후 단체톡방 안내 예정</li>
           </ul>
         </div>
       </section>
 
       <section class="section">
         <h2 class="section-title">
-          <span><span class="section-number">10</span>QR 안내</span>
+          <span><span class="section-number">9</span>QR 안내</span>
         </h2>
         <div class="section-content">
           <div class="qr-grid">
@@ -244,5 +292,5 @@
 
     <footer>연세대학교 원주세브란스기독병원 2026년도 하반기 신규 인턴 합격자 안내</footer>
   </div>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</body>
 </html>
